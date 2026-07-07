@@ -8,6 +8,8 @@ import DeepDive from './sections/DeepDive';
 import Experience from './sections/Experience';
 import Contact from './sections/Contact';
 
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   useEffect(() => {
     // Simple Intersection Observer for reveal animations
@@ -45,6 +47,7 @@ function App() {
         </div>
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

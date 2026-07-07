@@ -13,6 +13,9 @@ const Navbar = () => {
           <a className="font-label-md text-label-md text-secondary hover:text-on-surface transition-colors" href="#skills">Kỹ năng</a>
           <a className="font-label-md text-label-md text-secondary hover:text-on-surface transition-colors" href="#deep-dive">Chuyên sâu</a>
           <a className="font-label-md text-label-md text-secondary hover:text-on-surface transition-colors" href="#experience">Lộ trình</a>
+          <a className="inline-flex items-center gap-xs px-md py-sm bg-primary text-on-primary rounded-full font-label-md text-label-md hover:shadow-md transition-all hover:-translate-y-0.5 ml-sm" href="/SENGUYENHONTHAICV.pdf" target="_blank" rel="noreferrer">
+            <span className="material-symbols-outlined text-[18px]">visibility</span> Xem CV
+          </a>
           <button className="md:hidden p-2 ml-4">
             <span className="material-symbols-outlined">menu</span>
           </button>
